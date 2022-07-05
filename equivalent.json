@@ -1,0 +1,8 @@
+{
+  "BNB": "BEP2",
+  "BEP2": "BNB",
+  "ETH": "ERC20",
+  "ERC20": "ETH",
+  "TRX": "TRC20",
+  "TRC20": "TRX"
+}
