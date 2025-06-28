@@ -93,7 +93,7 @@
 {"network":"NEO3","address_regex":"^(N)[A-Za-z0-9]{33}$","tag_regex":""},
 {"network":"MINA","address_regex":"^(B62)[A-Za-z0-9]{52}$","tag_regex":""},
 {"network":"TOMO","address_regex":"^(0x)[0-9A-Fa-f]{40}$","tag_regex":""},
-{"network":"HBAR","address_regex":"^0[.]0[.]\\d{1,7}$","tag_regex":""},
+{"network":"HBAR","address_regex":"^0[.]0[.]\\d{1,7}$","tag_regex":"^[0-9A-Za-z\\-_]{1,120}$"},
 {"network":"FLOW","address_regex":"^(0x)[0-9A-Fa-f]{16}$","tag_regex":""},
 {"network":"LUNA","address_regex":"^(terra1)[0-9a-z]{38}$","tag_regex":"^[0-9A-Za-z\\-_]{1,120}$"},
 {"network":"NEAR","address_regex":"^[a-z0-9_-]{1}[a-z0-9_.-]{0,62}[a-z0-9_-]{1}$","tag_regex":""},
